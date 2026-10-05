@@ -1,0 +1,69 @@
+.mcsr-settings .inline-drawer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.mcsr-list {
+    max-height: 220px;
+    overflow-y: auto;
+    border: 1px solid var(--SmartThemeBorderColor);
+    border-radius: 6px;
+    padding: 6px;
+}
+
+.mcsr-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 2px 0;
+}
+
+.mcsr-empty {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.mcsr-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mcsr-q {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.mcsr-qlabel {
+    font-weight: 600;
+}
+
+.mcsr-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.mcsr-advanced {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 6px;
+}
+
+#mcsr_build_wrap {
+    display: none;
+}
+
+.mcsr-settings .menu_button.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+#mcsr_preview,
+#mcsr_scene {
+    font-family: monospace;
+    font-size: 0.85em;
+}
